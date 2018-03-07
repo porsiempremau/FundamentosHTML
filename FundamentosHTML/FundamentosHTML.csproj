@@ -94,7 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Audio\Preferencias.mp3" />
     <Content Include="educacion.html" />
+    <Content Include="experiencia.html" />
+    <Content Include="Image\InicialesMau.svg" />
+    <Content Include="Image\Personal.png" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -108,11 +112,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Video\AptitudesMau.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
